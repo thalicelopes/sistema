@@ -1,7 +1,7 @@
 import React from "react";
 import * as C from "./styles";
 
-const Header = () => {
+export default function Header() {
     return (
         <C.Container>
             <C.Header>
@@ -12,5 +12,3 @@ const Header = () => {
         </C.Container>
     )
 }
-
-export default Header

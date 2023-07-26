@@ -1,17 +1,17 @@
 import React from "react";
-import Header from "./components/header";
+import Header from "./components/header/index.js";
 import Resume from "./components/Resume/index";
 import GlobalStyle from "./styles/global";
 
 
-const App = () => {
+export default function App() {
     return (
         <>  
-            <Header />
+            {/* <Header />
             <Resume />
-            <GlobalStyle/>
+            <GlobalStyle/> */}
+            <h1>Hello world</h1>
         </>
     );
 };
 
-export default App;
